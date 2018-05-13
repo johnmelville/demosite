@@ -1,0 +1,40 @@
+# Site settings
+
+title: Great web agency
+email: johnmelvillewebdesign@outlook.com
+description: "Great web design agency offers high quality design"
+baseurl: "" 
+url: "" 
+twitter_username: jekyllrb
+github_username:  jekyll
+
+# Build settings
+markdown: kramdown
+
+permalink: none
+comments: true
+
+defaults:
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+      type: "posts" # a previous 'post' in jekyll 2.2
+    values:
+      layout: "post"
+      author: "John Melville"
+      category: "jekyll"
+
+plugins:
+  - jekyll-feed
+
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+# exclude:
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
