@@ -4,7 +4,7 @@ title: Great web agency
 email: johnmelvillewebdesign@outlook.com
 description: "Great web design agency offers high quality design"
 baseurl: "" 
-url: "" 
+url: "https://johnmelville.github.io/demosite/" 
 twitter_username: jekyllrb
 github_username:  jekyll
 
